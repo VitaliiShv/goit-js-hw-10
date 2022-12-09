@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-color: #e6dbda;
 }
 
 #search-box {
@@ -17,4 +18,43 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+
+.flag{
+  display: block;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.info-field{
+  font-weight: bold;
+}
+
+.list-item{
+  display: flex;
+  align-items: center;
+}
+
+.country-list{
+  padding-left: 0;
 }
